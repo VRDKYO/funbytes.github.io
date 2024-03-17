@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Rancho&effect=shadow-multiple');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+header { 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.labl {
+    font-size: 3em;
+    color: #ffffff;
+    font-family: 'Rancho', serif;
+    pointer-events: none;
+    position: relative;
+}
+
+.eff {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.eff img {
+    top: 0;
+    width: 100vw;
+    height: 56vh;
+    object-fit: cover;
+    object-position: 20% 10%;
+    position: absolute;
+    z-index: -2;
+}
+
+#ptxt {
+    color: #ffffff;
+    font-size: 5em;
+    position: absolute;
+    z-index: 0;
+    margin-top: 10px;
+}
+
+.mrc img {
+    width: 3in;
+    height: 3in;
+    object-fit: cover;
+}
+
+.mrc {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    position: inherit;
+    background: #c0d9ff;
+    padding: 100px;
+    margin-top: 0px;
+    z-index: 1;
+}
